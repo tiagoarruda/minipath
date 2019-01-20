@@ -26,7 +26,9 @@ public class URLController {
 	@ResponseStatus(value = HttpStatus.CREATED)
 	public String createURL(@RequestBody URL url) {
 		url = service.createURL(url);
-		return service.encodeID(url.getId());
+		
+		//TODO: Create a property containing the address bellow
+		return "http://localhost:8080/go/" + service.encodeID(url.getId());
 	}
 	
 	@GetMapping(value = "/url/{id}", produces = "application/json",consumes = "application/json")
