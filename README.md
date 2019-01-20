@@ -10,12 +10,12 @@ There are 3 endpoints configured
 * POST http://localhost:8080/url
 This endpoint will verify if the given path already exists, if not it will create a new DB entry.
 
-** payload:
+1) payload:
 {
   "path" : "http://google.com"
 }
 
-** response payload:
+2) response payload:
 "http://localhost:8080/go/d"
 
 A string containing the redirect url
@@ -23,7 +23,7 @@ A string containing the redirect url
 * GET http://localhost:8080/url/{id}
 This endpoint will get the database entry. The URIparam is the database id.
 
-** response payload
+1) response payload
 {
   "id" : 1,
   "path" : "http://google.com"
