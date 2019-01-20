@@ -1,0 +1,3 @@
+com/test/minipath/entity/URL.class
+com/test/minipath/jpa/URLRepository.class
+com/test/minipath/MinipathApplication.class
