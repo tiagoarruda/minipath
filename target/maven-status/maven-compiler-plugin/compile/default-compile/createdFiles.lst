@@ -1,3 +1,7 @@
+com/test/minipath/controller/URLController.class
+com/test/minipath/exception/ResourceNotFoundException.class
 com/test/minipath/entity/URL.class
+com/test/minipath/service/URLService.class
 com/test/minipath/jpa/URLRepository.class
+com/test/minipath/service/URLServiceImpl.class
 com/test/minipath/MinipathApplication.class
